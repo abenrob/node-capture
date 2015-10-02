@@ -1,0 +1,31 @@
+{
+  "name": "node-capture",
+  "version": "0.0.1",
+  "description": "nodejs/phantomjs remote screen-capture module",
+  "main": "./src/capture.js",
+  "scripts": {
+    "test": "mocha --reporter spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abenrob/node-capture.git"
+  },
+  "author": "Adam Roberts <adamben.roberts@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abenrob/node-capture/issues"
+  },
+  "homepage": "https://github.com/abenrob/node-capture#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "lodash": "^3.10.1",
+    "node-phantom-simple": "^2.0.5",
+    "phantomjs": "^1.9.2-6",
+    "phantomjs-webfonts": "^1.9.2",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
